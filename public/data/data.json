@@ -1,0 +1,86 @@
+{
+  "market": [
+
+    { "src":"images/bch.png", "currency": "BCH", "lastPrice":"1234.003118", "change": "12.34%","class":"up2", "icon":"icon-up",  "volume":"12.123M" },
+    { "src":"images/btg.png", "currency": "BTG", "lastPrice":"0.003110008", "change": "1.34%", "class":"dow2","icon":"icon-down","volume":"1.234k" },
+    { "src":"images/ltc.png", "currency": "LTC", "lastPrice":"12.00244444", "change": "0.34%", "class":"up2", "icon":"icon-up",  "volume":"12.345M" },
+    { "src":"images/rpz.png", "currency": "RPZ", "lastPrice":"0.013110008", "change": "1.34%", "class":"dow2","icon":"icon-down","volume":"1.234k" },
+    { "src":"images/zec.png", "currency": "ZEC", "lastPrice":"0.003110083", "change": "2.34%", "class":"up2", "icon":"icon-up",  "volume":"12.34k" },
+
+],
+
+  "balance": [
+
+    { "src":"images/bch.png", "currency": "BCH", "inTrades":"1234.003118", "balance": "12.00244" },
+    { "src":"images/btg.png", "currency": "BTG", "inTrades":"0.003110008", "balance": "12.00244"  },
+    { "src":"images/ltc.png", "currency": "LTC", "inTrades":"12.00244444", "balance": "12.00244"  },
+    { "src":"images/rpz.png", "currency": "RPZ", "inTrades":"0.013110008", "balance": "12.00244"  },
+    { "src":"images/zec.png", "currency": "ZEC", "inTrades":"0.003110083", "balance": "12.00244"  }
+
+  ],
+
+  "sellOrders": [
+
+    { "ask": "1234.00311830", "amount": "0.0000001", "value": "1234.0031113","total":"1234.0031180" },
+    { "ask": "1234.00311831", "amount": "0.0000002", "value": "1234.0031123","total":"1234.0031181" },
+    { "ask": "1234.00311832", "amount": "0.0000003", "value": "1234.0031133","total":"1234.0031182" },
+    { "ask": "1234.00311833", "amount": "0.0000004", "value": "1234.0031143","total":"1234.0031183" },
+    { "ask": "1234.00311834", "amount": "0.0000005", "value": "1234.0031185","total":"1234.0031184" },
+    { "ask": "1234.00311835", "amount": "0.0000006", "value": "1234.0031186","total":"1234.0031185" },
+    { "ask": "1234.00311836", "amount": "0.0000007", "value": "1234.0031187","total":"1234.0031186" },
+    { "ask": "1234.00311837", "amount": "0.0000008", "value": "1234.0031188","total":"1234.0031187" },
+    { "ask": "1234.00311838", "amount": "0.0000009", "value": "1234.0031189","total":"1234.0031188" },
+    { "ask": "1234.00311839", "amount": "0.0000006", "value": "1234.0031180","total":"1234.0031189" },
+    { "ask": "1234.00311830", "amount": "0.0000001", "value": "1235.0031183","total":"1234.0031180" }
+
+
+  ],
+  "buyOrders": [
+
+    { "ask": "1230.00311830", "amount": "0.0000001", "value": "1234.0031113","total":"1234.0031180" },
+    { "ask": "1231.00311831", "amount": "0.0000002", "value": "1234.0031123","total":"1234.0031181" },
+    { "ask": "1232.00311832", "amount": "0.0000003", "value": "1234.0031133","total":"1234.0031182" },
+    { "ask": "1233.00311833", "amount": "0.0000004", "value": "1234.0031143","total":"1234.0031183" },
+    { "ask": "1234.00311834", "amount": "0.0000005", "value": "1234.0031185","total":"1234.0031184" },
+    { "ask": "1235.00311835", "amount": "0.0000006", "value": "1234.0031186","total":"1234.0031185" },
+    { "ask": "1236.00311836", "amount": "0.0000007", "value": "1234.0031187","total":"1234.0031186" },
+    { "ask": "1237.00311837", "amount": "0.0000008", "value": "1234.0031188","total":"1234.0031187" },
+    { "ask": "1238.00311838", "amount": "0.0000009", "value": "1234.0031189","total":"1234.0031188" },
+    { "ask": "1239.00311839", "amount": "0.0000006", "value": "1234.0031180","total":"1234.0031189" },
+    { "ask": "1230.00311830", "amount": "0.0000001", "value": "1235.0031183","total":"1234.0031180" }
+
+  ],
+
+  "myOpenOrders": [
+
+    { "timestamp": "2017-11-12 17:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Buy","price":"1.23456789","operation":"Cancel","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Sell","price":"1.23456789","operation":"Cancel","class":"sellcolor" },
+    { "timestamp": "2017-11-12 17:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Buy","price":"1.23456789","operation":"Cancel","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Sell","price":"1.23456789","operation":"Cancel","class":"sellcolor" },
+    { "timestamp": "2017-11-12 17:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Buy","price":"1.23456789","operation":"Cancel","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Sell","price":"1.23456789","operation":"Cancel","class":"sellcolor" },
+    { "timestamp": "2017-11-12 17:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Buy","price":"1.23456789","operation":"Cancel","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Sell","price":"1.23456789","operation":"Cancel","class":"sellcolor" },
+    { "timestamp": "2017-11-12 17:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Buy","price":"1.23456789","operation":"Cancel","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Sell","price":"1.23456789","operation":"Cancel","class":"sellcolor" },
+    { "timestamp": "2017-11-12 17:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Buy","price":"1.23456789","operation":"Cancel","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "amount": "45,678.12345678", "initialVolume": "1234.00311103","residualVolume":"10.00000001","type":"Sell","price":"1.23456789","operation":"Cancel","class":"sellcolor" }
+
+  ],
+  "marketHistory": [
+
+    { "timestamp": "2017-11-12 18:30:30", "type":"Buy",  "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Sell", "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"sellcolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Buy",  "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Sell", "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"sellcolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Buy",  "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Sell", "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"sellcolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Buy",  "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Sell", "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"sellcolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Buy",  "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Sell", "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"sellcolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Buy",  "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"buycolor" },
+    { "timestamp": "2017-11-12 18:30:30", "type":"Sell", "price":"1.23456789", "volumeRPZ": "0.173075", "volumeBTC": "0.173075","valueBTC":"0.173075","class":"sellcolor" }
+
+  ]
+}

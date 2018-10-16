@@ -1,0 +1,17 @@
+@extends('layouts.email')
+@section('name')
+    {{trans('email.Dear')}}
+@endsection
+@section('content')
+    <p>{{trans('email.withdraw_auto_cancel1')}}
+        {{$currency}}{{$amount}}
+        {{trans('email.withdraw_auto_cancel2')}}
+        {{$currency}}{{$amount}}
+        {{trans('email.withdraw_auto_cancel3')}}
+    </p>
+    <p>{{trans('email.withdraw_auto_cancel4')}}</p>
+    <p>{{trans('email.withdraw_auto_cancel5')}}</p>
+    <br>
+    <p>{{trans('email.BestWish')}}</p>
+    <p>{{trans('email.ac')}}</p>
+@endsection

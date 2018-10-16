@@ -1,0 +1,9 @@
+*/1 * * * * curl https://testacx.alliancecapitals.com/cron/twoHour
+*/3 * * * * curl https://testacx.alliancecapitals.com/cron/sixHour
+*/13 * * * * curl https://testacx.alliancecapitals.com/cron/oneDay
+*/26 * * * * curl https://testacx.alliancecapitals.com/cron/twoDay
+*/31 */1 * * * curl https://testacx.alliancecapitals.com/cron/week
+0 */3 * * * curl https://testacx.alliancecapitals.com/cron/twoWeek
+0 0 */26 * * curl https://testacx.alliancecapitals.com/cron/month
+0 0 */2 */1 * curl https://testacx.alliancecapitals.com/cron/twoMonth
+0 0 0 */3 * curl https://testacx.alliancecapitals.com/cron/sixMonth
